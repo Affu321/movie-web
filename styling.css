@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #13688C;
+}
+nav{
+    background-color: rgb(11, 12, 80);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 85%;
+    height: 80px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+}
+.navigation li{
+    padding: 20px;
+}
+.navigation li input{
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid;
+    padding: 8px;
+    border-color:  #13688C;
+    color: white;
+}
+.navigation li input:focus{
+    outline: none;
+    background-color: #13688C ;
+}
+.navigation li input::-webkit-input-placeholder{
+
+    color: white;
+}
+.navigation li a{
+    color:rgb(231, 229, 229);
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    color: #13688C;
+    transition: all .3s ease-in-out
+}
+
+.logo img{
+    width: 180px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    margin-top: -70px ;
+    
+}
+.movie{
+    background-color: rgb(11, 12, 80);
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 5px rgba(11, 7, 131, 0.2);
+    margin: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.movie img{ 
+    width: 100%;
+}
+.movie-info{
+    color: rgb(231, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 1px;
+    flex: 1;
+}
+.movie-info h3{
+    margin: 0;
+}
+.movie-info span{
+    background-color:#13688C ;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+.movie-info span.green{
+    color: rgb(49, 180, 49);
+}
+.movie-info span.orange{
+    color: orange;
+}
+.movie-info span.red{
+    color: red;
+}
